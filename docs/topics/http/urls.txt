@@ -240,6 +240,8 @@ Syntax of the ``urlpatterns`` variable
 ``urlpatterns`` should be a Python list of :func:`~django.conf.urls.url`
 instances.
 
+.. _topics-error-handling:
+
 Error handling
 ==============
 

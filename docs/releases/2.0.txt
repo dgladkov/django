@@ -193,7 +193,8 @@ Tests
 URLs
 ~~~~
 
-* ...
+* The default :ref:`error handlers<topics-error-handling>` are callables
+  instead of import strings now.
 
 Validators
 ~~~~~~~~~~
