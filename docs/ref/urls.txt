@@ -97,6 +97,9 @@ implement a custom view, be sure it returns an
 See the documentation about :ref:`the 400 (bad request) view
 <http_bad_request_view>` for more information.
 
+.. versionchanged:: 2.0
+    Default value has changed from an import string to a callable.
+
 ``handler403``
 ==============
 
@@ -113,6 +116,9 @@ implement a custom view, be sure it returns an
 See the documentation about :ref:`the 403 (HTTP Forbidden) view
 <http_forbidden_view>` for more information.
 
+.. versionchanged:: 2.0
+    Default value has changed from an import string to a callable.
+
 ``handler404``
 ==============
 
@@ -127,6 +133,9 @@ implement a custom view, be sure it returns an
 
 See the documentation about :ref:`the 404 (HTTP Not Found) view
 <http_not_found_view>` for more information.
+
+.. versionchanged:: 2.0
+    Default value has changed from an import string to a callable.
 
 ``handler500``
 ==============
@@ -143,3 +152,6 @@ implement a custom view, be sure it returns an
 
 See the documentation about :ref:`the 500 (HTTP Internal Server Error) view
 <http_internal_server_error_view>` for more information.
+
+.. versionchanged:: 2.0
+    Default value has changed from an import string to a callable.
